@@ -6,20 +6,20 @@ public class PracticeQuestion {
 // Write a program to calculate a percentage of given students
         System.out.println("Enter total marks of a subject (i.e : 100 or 80)!");
         Scanner srt = new Scanner(System.in);
-        float Maxmarks = srt.nextFloat();
+        float max = srt.nextFloat();
         System.out.println("Enter your first subject marks: ");
-        float FirstSub = srt.nextFloat();
+        float firstSub = srt.nextFloat();
         System.out.println("Enter your second subject marks: ");
-        float SecondSub = srt.nextFloat();
+        float secondSub = srt.nextFloat();
         System.out.println("Enter your third subject marks: ");
-        float ThirdSub = srt.nextFloat();
+        float thirdSub = srt.nextFloat();
         System.out.println("Enter your fourth subject marks: ");
-        float FourthSub = srt.nextFloat();
+        float fourthSub = srt.nextFloat();
         System.out.println("Enter your fifth subject marks: ");
-        float Fifthsub = srt.nextFloat();
-        float Calculation1 =FirstSub+SecondSub+ThirdSub+FourthSub+Fifthsub;
-        float FinalCalculation1 = Calculation1*100/(Maxmarks*5);
-        System.out.println("Your percentage is :"+FinalCalculation1+"%");
+        float fifth_sub = srt.nextFloat();
+        float calculation1 =firstSub+secondSub+thirdSub+fourthSub+fifth_sub;
+        float finalCalculation1 = calculation1*100/(max*5);
+        System.out.println("Your percentage is :"+finalCalculation1+"%");
         System.out.println("End your program");
     }
 }
