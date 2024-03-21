@@ -23,5 +23,7 @@ public class AddTwoNumbers {
          System.out.println(age5);
          System.out.println(age6);
          System.out.println(user);
+
+        // System.out.println("the value of age is %d and the value of age3 is %f and the value of age5 is",age,age3);
     }
 }

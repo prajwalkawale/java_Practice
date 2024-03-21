@@ -7,13 +7,13 @@ public class Practice_Question02 {
         System.out.println("Enter your marks here !");
         Scanner srt = new Scanner(System.in);
         System.out.println("Enter your First Subject marks: ");
-        float S1 = srt.nextFloat();
+        float s1 = srt.nextFloat();
         System.out.println("Enter your Second Subject marks: ");
-        float S2 = srt.nextFloat();
+        float s2 = srt.nextFloat();
         System.out.println("Enter your Third Subject marks: ");
-        float S3 = srt.nextFloat();
-        float Total= S1+S2+S3;
-        float CGPA = Total/30;
-        System.out.println("You are secure with this CGPA : "+CGPA);
+        float s3 = srt.nextFloat();
+        float total= s1+s2+s3;
+        float cgpa = total/30;
+        System.out.println("You are secure with this CGPA : "+cgpa);
     }
 }
