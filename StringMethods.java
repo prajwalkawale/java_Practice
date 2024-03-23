@@ -29,6 +29,21 @@ public class StringMethods {
         String subString2 = srt.substring(0,6); // the last index would be excluded
         System.out.println(subString2);
 
-        String replaceOld = srt.replace('e','a');// it will replace old string
+
+        // Replace String
+        System.out.println(srt.replace('l','p'));// it would replace only one character
+        System.out.println(srt.replace("Hello","Happy"));// this method would replace whole string
+
+        // booleans
+        String srt1 ="Programming";
+        System.out.println(srt1.startsWith("Pro")); // the character starts with Pro character or not (True or False)
+        System.out.println(srt1.endsWith("ing"));// it would check ,is this string ends with ing character
+
+        System.out.println(srt1.charAt(3));
+
+        System.out.println(srt1.indexOf("m")); // first m index occurrence
+
+        String srt2 ="hellollollo";
+        System.out.println(srt2.indexOf("llo",4));// second parameter for starts with 4 index and exclude the former
     }
 }
