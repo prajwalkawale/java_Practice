@@ -39,11 +39,26 @@ public class StringMethods {
         System.out.println(srt1.startsWith("Pro")); // the character starts with Pro character or not (True or False)
         System.out.println(srt1.endsWith("ing"));// it would check ,is this string ends with ing character
 
+        // At the given index number it would show which character is present
         System.out.println(srt1.charAt(3));
 
         System.out.println(srt1.indexOf("m")); // first m index occurrence
 
         String srt2 ="hellollollo";
         System.out.println(srt2.indexOf("llo",4));// second parameter for starts with 4 index and exclude the former
+
+        // Last index character occurrence
+
+        int lastIndex =srt1.lastIndexOf('r'); // it will exclude first r character
+        System.out.println(lastIndex);
+        int lastIndex2 = srt2.lastIndexOf('l',4);
+        System.out.println(lastIndex2);
+        String userName = "Vicky";
+        System.out.println(userName.equals("Vicky"));
+        System.out.println(srt2.equals("hello"));
+        System.out.println(userName.equalsIgnoreCase("vicky"));
+
+        System.out.println("I am escape sequence \"hello\""); // hello world in double quotes
+        System.out.println("I am escape \\sequence"); // \\ sequence
     }
 }
