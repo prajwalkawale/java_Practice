@@ -22,16 +22,20 @@ public class LoopPracticeQuestion02 {
 
         // Problem No: 6
         int j =1;
-        int k =1;
         int a = 5;
         while(j<=a){
+            int k =1;
            while(k<=j){
                System.out.print("*");
                k++;
            }
-            System.out.println("\n");
+            System.out.print("\n");
+
             j++;
         }
+
+        // Problem number 7
+        //Write a program to calculate the sum of the
 
     }
 }
